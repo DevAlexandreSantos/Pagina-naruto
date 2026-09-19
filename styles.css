@@ -89,7 +89,6 @@ button:hover{
     height: 100vh;
     background-color: #f74e00;
     position: fixed;
-    top: 0;
     left: 0;
     clip-path: circle(650px at right 450px);
     z-index: -1;
