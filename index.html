@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="img/Logo 2.png" type="image/x-icon">
-    <title>Naruto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="img/Logo 2.png" type="image/x-icon">
+<title>Naruto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+rel="stylesheet">
 </head>
-
 <body>
-    <!-- <div class="circulo"></div> -->
-    <img src="img/Logo 2.png" alt="Logo" width="150">
-    <div class="conteudo">
-        <div class="caixa-texto">
-            <h1>Naruto</h1>
-            <p>Os protagonistas da série Naruto são Naruto Uzumaki, Sasuke Uchiha, Sakura Haruno e Kakashi Hatake, que formam o "Time 7" (第7班, Dainanahan) de Konohagakure. Após a deserção de Sasuke Uchiha e a saída de Naruto de Konohagakure no final da Parte I, a equipe se desfaz.</p>
-            <div id="personagem-info" class="personagem-info"> <!-- Aqui vai aparecer o conteúdo de cada personagem -->
+<div class="circulo"></div>
+<img src="img/Logo 2.png" alt="Logo" width="150">
 
-            </div>
+<div class="conteudo">
+  <div class="caixa-texto">
+    <h1 id="titulo-time">Naruto</h1>
+    <p id="descricao-time">Os protagonistas da série Naruto são Naruto Uzumaki, Sasuke Uchiha, Sakura Haruno e Kakashi Hatake, que formam o "Time 7" (第7班, Dainanahan) de Konohagakure.</p>
+    <div id="personagem-info" class="personagem-info">
+      <!-- Aqui vai aparecer o conteúdo de cada personagem -->
+    </div>
+  </div>
+  <div class="caixa-imagem">
+    <img id="imagem-personagem" class="Naruto" src="img/time 7.png" alt="trio">
+  </div>
+</div>
 
-        </div>
-        <div class="caixa-imagem">
-            <img id="imagem-personagem" class="Naruto" src="img/time 7.png" alt="trio">
-        </div>
-    </div>
-    <div class="menu">
-        <img src="img/naruto.png" onclick="mostrarPersonagem('naruto'); trocarCor('#F66C2D')" class="personagem botao-menu" alt="Naruto Uzumaki" width="150px">
-        <img src="img/sakura.png" onclick="mostrarPersonagem('sakura'); trocarCor('#B2261E')" class="personagem botao-menu" alt="Sakura Haruno" width="150px">
-        <img src="img/sasuke.png" onclick="mostrarPersonagem('sasuke'); trocarCor('#082C8C')" class="personagem botao-menu" alt="Sasuke Uchiha" width="150px">
-        <img src="img/kakashi.png" onclick="mostrarPersonagem('kakashi'); trocarCor('#A9A19F')" class="personagem botao-menu" alt="Kakashi Hatake" width="150px">
-    </div>
-    <button onclick="resetarPersonagem('#F66C2D')">Mostrar Time 7</button>
-    <div id="area-trio" class="circulo">
-        <img id="imagem-central" src="img/time 7.png" alt="Trio Time 7">
-    </div>
+<!-- NOVO: menu para escolher o time -->
+<div class="menu-times">
+  <button onclick="mostrarTime('time7')">Time 7</button>
+  <button onclick="mostrarTime('time8')">Time 8</button>
+  <button onclick="mostrarTime('time10')">Time 10</button>
+  <button onclick="mostrarTime('timeGai')">Time Gai</button>
+</div>
+
+<!-- Este menu agora é preenchido dinamicamente pelo JS, de acordo com o time escolhido -->
+<div id="menu-personagens" class="menu">
+  <img src="img/naruto.png" onclick="mostrarPersonagem('naruto')" class="personagem botao-menu" alt="Naruto Uzumaki" width="150px">
+  <img src="img/sakura.png" onclick="mostrarPersonagem('sakura')" class="personagem botao-menu" alt="Sakura Haruno" width="150px">
+  <img src="img/sasuke.png" onclick="mostrarPersonagem('sasuke')" class="personagem botao-menu" alt="Sasuke Uchiha" width="150px">
+  <img src="img/kakashi.png" onclick="mostrarPersonagem('kakashi')" class="personagem botao-menu" alt="Kakashi Hatake" width="150px">
+</div>
+
+<button onclick="resetarTime()">Mostrar Time completo</button>
+
+<div id="area-trio" class="circulo">
+  <img id="imagem-central" src="img/time 7.png" alt="Trio Time 7">
+</div>
 
 </body>
 <script src="scripts.js"></script>
-
 </html>
