@@ -28,18 +28,19 @@ const personagens = {
   },
 
   // Exemplos de novos personagens (troque pelas imagens reais que você adicionar em /img)
-  hinata:   { nome: "Hinata Hyuga",   imagem: "img/hinata.png",   cor: "#7A1F1F", descricao: "Herdeira do clã Hyuga, usuária do Byakugan." },
-  kiba:     { nome: "Kiba Inuzuka",   imagem: "img/kiba.png",     cor: "#7A1F1F", descricao: "Combate ao lado do fiel cão Akamaru." },
-  shino:    { nome: "Shino Aburame",  imagem: "img/shino.png",    cor: "#7A1F1F", descricao: "Usa insetos ninja para rastrear e atacar inimigos." },
-  kurenai:  { nome: "Kurenai Yuhi",   imagem: "img/kurenai.png",  cor: "#7A1F1F", descricao: "Líder do Time 8, especialista em genjutsu." },
+  hinata: { nome: "Hinata Hyuga", imagem: "img/hinata.png", cor: "#7A1F1F", descricao: "Herdeira do clã Hyuga, usuária do Byakugan." },
+  kiba: { nome: "Kiba Inuzuka", imagem: "img/kiba.png", cor: "#7A1F1F", descricao: "Combate ao lado do fiel cão Akamaru." },
+  shino: { nome: "Shino Aburame", imagem: "img/shino.png", cor: "#7A1F1F", descricao: "Usa insetos ninja para rastrear e atacar inimigos." },
+  kurenai: { nome: "Kurenai Yuhi", imagem: "img/kurenai.png", cor: "#7A1F1F", descricao: "Líder do Time 8, especialista em genjutsu." },
 
-  shikamaru:{ nome: "Shikamaru Nara", imagem: "img/shikamaru.png", cor: "#3A8F3A", descricao: "Estrategista genial do Time 10." },
-  ino:      { nome: "Ino Yamanaka",   imagem: "img/ino.png",       cor: "#3A8F3A", descricao: "Domina técnicas de transferência de mente." },
-  choji:    { nome: "Choji Akimichi", imagem: "img/choji.png",     cor: "#3A8F3A", descricao: "Usa jutsus de expansão corporal em combate." },
+  shikamaru: { nome: "Shikamaru Nara", imagem: "img/NicePng_shikamaru-png_3746119.png", cor: "#3A8F3A", descricao: "Estrategista genial do Time 10." },
+  ino: { nome: "Ino Yamanaka", imagem: "img/NicePng_sasuke-uchiha-png_8475061.png", cor: "#3A8F3A", descricao: "Domina técnicas de transferência de mente." },
+  choji: { nome: "Choji Akimichi", imagem: "img/NicePng_shikamaru-png_3746929.png", cor: "#3A8F3A", descricao: "Usa jutsus de expansão corporal em combate." },
+  Asuma: { nome: "Asuma Sarutobi", imagem: "img/NicePng_asuma-sarutobi-png_8475061.png", cor: "#3A8F3A", descricao: "Líder do Time 10, mestre em combate com lâminas." },
 
-  rocklee:  { nome: "Rock Lee",  imagem: "img/rocklee.png", cor: "#0B5D8C", descricao: "Taijutsu puro, sem usar ninjutsu ou genjutsu." },
-  neji:     { nome: "Neji Hyuga", imagem: "img/neji.png",   cor: "#0B5D8C", descricao: "Prodígio do clã Hyuga e usuário do Byakugan." },
-  tenten:   { nome: "Tenten", imagem: "img/tenten.png",     cor: "#0B5D8C", descricao: "Especialista em armas ninja de longo alcance." }
+  rocklee: { nome: "Rock Lee", imagem: "img/rocklee.png", cor: "#0B5D8C", descricao: "Taijutsu puro, sem usar ninjutsu ou genjutsu." },
+  neji: { nome: "Neji Hyuga", imagem: "img/neji.png", cor: "#0B5D8C", descricao: "Prodígio do clã Hyuga e usuário do Byakugan." },
+  tenten: { nome: "Tenten", imagem: "img/tenten.png", cor: "#0B5D8C", descricao: "Especialista em armas ninja de longo alcance." }
 };
 
 const times = {
@@ -60,7 +61,7 @@ const times = {
   time10: {
     nome: "Time 10",
     descricao: "Liderado por Asuma Sarutobi, o Time 10 reúne Shikamaru Nara, Ino Yamanaka e Choji Akimichi, formando o clássico trio Ino-Shika-Cho.",
-    imagemTime: "img/time10.png",
+    imagemTime: "img/NicePng_team-10-logo-png_3236041.png",
     cor: "#3A8F3A",
     membros: ["shikamaru", "ino", "choji"]
   },

@@ -1,97 +1,97 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-body{
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+body {
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
-.conteudo{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.conteudo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.caixa-texto{
-    width: 600px;
+.caixa-texto {
+  width: 600px;
 }
 
-h1{
-    color: #F66C2D;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
+h1 {
+  color: #f66c2d;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
-h2{
-    color: #F66C2D;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
+h2 {
+  color: #f66c2d;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
 }
 
-p{
-    font-size: 16px;
-    text-align: justify;
+p {
+  font-size: 16px;
+  text-align: justify;
 }
 
-button{
-    background-color: #F66C2D;
-    color: white;
-    border-radius: 40px;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: 0.5s;
+button {
+  background-color: #f66c2d;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-button:hover{
-    background-color: #f74e00;
-    color: white;
-    transform: scale(1.1);
+button:hover {
+  background-color: #f74e00;
+  color: white;
+  transform: scale(1.1);
 }
 
-.caixa-imagem{
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.caixa-imagem {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Naruto{
-    width: 340px;
+.Naruto {
+  width: 340px;
 }
 
-.menu{
-    display: flex;
-    justify-content: center;
+.menu {
+  display: flex;
+  justify-content: center;
 }
 
-.botao-menu{
-    width: 100px;
-    cursor: pointer;
-    transition: 0.5s;
+.botao-menu {
+  width: 100px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.botao-menu:hover{
-    transform: translatey(-30px)
+.botao-menu:hover {
+  transform: translatey(-30px);
 }
 
-.circulo{
-    width: 100vw;
-    height: 100vh;
-    background-color: #f74e00;
-    position: fixed;
-    left: 0;
-    clip-path: circle(650px at right 450px);
-    z-index: -1;
+.circulo {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f74e00;
+  position: fixed;
+  left: 0;
+  clip-path: circle(650px at right 450px);
+  z-index: -1;
 }
 
 /* Animação suave de entrada */
@@ -114,7 +114,7 @@ button:hover{
 #personagem-info {
   margin-top: 30px;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @keyframes girar {
