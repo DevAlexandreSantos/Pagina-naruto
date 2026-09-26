@@ -36,7 +36,7 @@ const personagens = {
   shikamaru: { nome: "Shikamaru Nara", imagem: "img/NicePng_shikamaru-png_3746119.png", cor: "#3A8F3A", descricao: "Estrategista genial do Time 10." },
   ino: { nome: "Ino Yamanaka", imagem: "img/NicePng_sasuke-uchiha-png_8475061.png", cor: "#3A8F3A", descricao: "Domina técnicas de transferência de mente." },
   choji: { nome: "Choji Akimichi", imagem: "img/NicePng_shikamaru-png_3746929.png", cor: "#3A8F3A", descricao: "Usa jutsus de expansão corporal em combate." },
-  Asuma: { nome: "Asuma Sarutobi", imagem: "img/NicePng_asuma-sarutobi-png_8475061.png", cor: "#3A8F3A", descricao: "Líder do Time 10, mestre em combate com lâminas." },
+  Asuma: { nome: "Asuma Sarutobi", imagem: "img/NicePng_zabuza-png_3819856.png", cor: "#3A8F3A", descricao: "Líder do Time 10, mestre em combate com lâminas." },
 
   rocklee: { nome: "Rock Lee", imagem: "img/rocklee.png", cor: "#0B5D8C", descricao: "Taijutsu puro, sem usar ninjutsu ou genjutsu." },
   neji: { nome: "Neji Hyuga", imagem: "img/neji.png", cor: "#0B5D8C", descricao: "Prodígio do clã Hyuga e usuário do Byakugan." },
@@ -63,7 +63,7 @@ const times = {
     descricao: "Liderado por Asuma Sarutobi, o Time 10 reúne Shikamaru Nara, Ino Yamanaka e Choji Akimichi, formando o clássico trio Ino-Shika-Cho.",
     imagemTime: "img/NicePng_team-10-logo-png_3236041.png",
     cor: "#3A8F3A",
-    membros: ["shikamaru", "ino", "choji"]
+    membros: ["shikamaru", "ino", "choji", "Asuma"]
   },
   timeGai: {
     nome: "Time Gai",
