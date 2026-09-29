@@ -2,7 +2,7 @@
 
 Página interativa sobre o **Time 7** de *Naruto* (Naruto Uzumaki, Sasuke Uchiha, Sakura Haruno e Kakashi Hatake). Ao clicar em um personagem, a página mostra o nome e a descrição dele, troca a imagem com uma animação de giro e muda a cor do círculo de fundo para combinar com o personagem.
 
-> 🔗 **Demo:** 
+> 🔗 **Demo:** https://pagina-naruto-git-v2-dev-alexandre-santos.vercel.app/
 
 ## 📸 Preview
 
